@@ -1,0 +1,279 @@
+%5{2019-05-05 00:03:25}  INFO 12228 --- [restartedMain] com.ssn.fedral.gov.SsnWaveApplication    : Starting SsnWaveApplication on DESKTOP-E437K2U with PID 12228 (E:\Project\SSNWave\target\classes started by HP in E:\Project\SSNWave)
+%5{2019-05-05 00:03:25} DEBUG 12228 --- [restartedMain] com.ssn.fedral.gov.SsnWaveApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+%5{2019-05-05 00:03:25}  INFO 12228 --- [restartedMain] com.ssn.fedral.gov.SsnWaveApplication    : The following profiles are active: dev
+%5{2019-05-05 00:03:25}  INFO 12228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+%5{2019-05-05 00:03:25}  INFO 12228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+%5{2019-05-05 00:03:27}  INFO 12228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+%5{2019-05-05 00:03:28}  INFO 12228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210ms. Found 2 repository interfaces.
+%5{2019-05-05 00:03:29}  INFO 12228 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535e75c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+%5{2019-05-05 00:03:30}  INFO 12228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2323 (http)
+%5{2019-05-05 00:03:30}  INFO 12228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+%5{2019-05-05 00:03:30}  INFO 12228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+%5{2019-05-05 00:03:31}  INFO 12228 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+%5{2019-05-05 00:03:31}  INFO 12228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+%5{2019-05-05 00:03:32}  INFO 12228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+%5{2019-05-05 00:03:32}  WARN 12228 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+%5{2019-05-05 00:03:34}  INFO 12228 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+%5{2019-05-05 00:03:34}  INFO 12228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+%5{2019-05-05 00:03:34}  INFO 12228 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+%5{2019-05-05 00:03:34}  INFO 12228 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+%5{2019-05-05 00:03:34}  INFO 12228 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+%5{2019-05-05 00:03:35}  INFO 12228 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+%5{2019-05-05 00:03:35}  INFO 12228 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+%5{2019-05-05 00:03:36}  INFO 12228 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@3dce8939
+%5{2019-05-05 00:03:36}  INFO 12228 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@3dce8939
+%5{2019-05-05 00:03:36}  INFO 12228 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@2300297f
+%5{2019-05-05 00:03:36}  INFO 12228 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@2300297f
+%5{2019-05-05 00:03:39}  INFO 12228 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+%5{2019-05-05 00:03:39}  INFO 12228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+%5{2019-05-05 00:03:41}  WARN 12228 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+%5{2019-05-05 00:03:41}  INFO 12228 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+%5{2019-05-05 00:03:42}  INFO 12228 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+%5{2019-05-05 00:03:42}  INFO 12228 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+%5{2019-05-05 00:03:42}  INFO 12228 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+%5{2019-05-05 00:03:42}  INFO 12228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2323 (http) with context path ''
+%5{2019-05-05 00:03:42}  INFO 12228 --- [restartedMain] com.ssn.fedral.gov.SsnWaveApplication    : Started SsnWaveApplication in 18.277 seconds (JVM running for 19.786)
+%5{2019-05-05 00:04:53}  INFO 12228 --- [http-nio-2323-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+%5{2019-05-05 00:04:53} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.f.gov.ssncontroller.SsnController    : **ShowForm Method Is  Executed**
+%5{2019-05-05 00:04:53} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.f.gov.ssncontroller.SsnController    : *formValue Method Execution Started*
+%5{2019-05-05 00:04:53}  INFO 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : **rettriveAllstate() Execution Started**
+%5{2019-05-05 00:04:53}  INFO 12228 --- [http-nio-2323-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : **After Getting All usastate**[UsaState(stateCode=1, STATENAME=Alabama), UsaState(stateCode=2, STATENAME=Alaska), UsaState(stateCode=3, STATENAME=Arizona), UsaState(stateCode=4, STATENAME=Arkansas), UsaState(stateCode=5, STATENAME=California), UsaState(stateCode=6, STATENAME=Colorado), UsaState(stateCode=7, STATENAME=Connecticut), UsaState(stateCode=8, STATENAME=Delaware), UsaState(stateCode=9, STATENAME=District of Columbia), UsaState(stateCode=10, STATENAME=Florida), UsaState(stateCode=11, STATENAME=Georgia), UsaState(stateCode=12, STATENAME=Hawaii), UsaState(stateCode=13, STATENAME=Idaho), UsaState(stateCode=14, STATENAME=Illinois), UsaState(stateCode=15, STATENAME=Indiana), UsaState(stateCode=16, STATENAME=Iowa), UsaState(stateCode=17, STATENAME=Kansas), UsaState(stateCode=18, STATENAME=Kentucky), UsaState(stateCode=19, STATENAME=Louisiana), UsaState(stateCode=20, STATENAME=Maine), UsaState(stateCode=21, STATENAME=Maryland), UsaState(stateCode=22, STATENAME=Massachusetts), UsaState(stateCode=23, STATENAME=Michigan), UsaState(stateCode=24, STATENAME=Minnesota), UsaState(stateCode=25, STATENAME=Mississippi), UsaState(stateCode=26, STATENAME=Missouri), UsaState(stateCode=27, STATENAME=Montana), UsaState(stateCode=28, STATENAME=Nebraska), UsaState(stateCode=29, STATENAME=Nevada), UsaState(stateCode=30, STATENAME=New Hampshire), UsaState(stateCode=31, STATENAME=New Jersey), UsaState(stateCode=32, STATENAME=New Mexico), UsaState(stateCode=33, STATENAME=New York), UsaState(stateCode=34, STATENAME=North Carolina), UsaState(stateCode=35, STATENAME=North Dakota), UsaState(stateCode=36, STATENAME=Ohio), UsaState(stateCode=37, STATENAME=Oklahoma), UsaState(stateCode=38, STATENAME=Oregon), UsaState(stateCode=39, STATENAME=Pennsylvania), UsaState(stateCode=40, STATENAME=Puerto Rico), UsaState(stateCode=41, STATENAME=Rhode Island), UsaState(stateCode=42, STATENAME=South Carolina), UsaState(stateCode=43, STATENAME=South Dakota), UsaState(stateCode=44, STATENAME=Tennessee), UsaState(stateCode=45, STATENAME=Texas), UsaState(stateCode=46, STATENAME=Utah), UsaState(stateCode=47, STATENAME=Vermont), UsaState(stateCode=48, STATENAME=Virginia), UsaState(stateCode=49, STATENAME=Washington), UsaState(stateCode=50, STATENAME=West Virginia), UsaState(stateCode=51, STATENAME=Wisconsin), UsaState(stateCode=52, STATENAME=Wyoming)]
+%5{2019-05-05 00:04:55}  WARN 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Checking Condition !usastate.isEmpty())**
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:04:55}  INFO 12228 --- [http-nio-2323-exec-1] c.s.f.gov.ssncontroller.SsnController    : **formValue Method Execution Complited**
+%5{2019-05-05 00:04:55} DEBUG 12228 --- [http-nio-2323-exec-1] c.s.f.gov.ssncontroller.SsnController    : **Before Returning LogicalViewName**
+%5{2019-05-05 00:04:55}  INFO 12228 --- [http-nio-2323-exec-1] c.s.f.gov.ssncontroller.SsnController    : **Method Execution Complited**
+%5{2019-05-05 00:05:52}  INFO 12228 --- [http-nio-2323-exec-5] c.s.f.gov.ssncontroller.SsnController    : **enrollSsn Method Execution Started**
+%5{2019-05-05 00:05:52} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.f.gov.ssncontroller.SsnController    : **Before Calling ssnService.SsnEnrolment(models)**
+%5{2019-05-05 00:05:52}  INFO 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Running The SsnEnrolment**
+%5{2019-05-05 00:05:52}  INFO 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : Before Copy model to master
+%5{2019-05-05 00:05:52} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Befor Calling RepositoryMethod**
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : **After Getting ssnmaster **SsnMaster(ssn=876891191, firstName=Gouranga, lastName=Bro, gender=MALE, phoneNo=1234567890, dob=Sat Oct 05 00:00:00 IST 2019, state=Indiana, photo=null, createdDate=Sun May 05 00:05:52 IST 2019, updatedDate=Sun May 05 00:05:52 IST 2019, createdBy=null, updatedBy=null)
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.f.gov.ssncontroller.SsnController    : *formValue Method Execution Started*
+%5{2019-05-05 00:05:53}  INFO 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : **rettriveAllstate() Execution Started**
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : **After Getting All usastate**[UsaState(stateCode=1, STATENAME=Alabama), UsaState(stateCode=2, STATENAME=Alaska), UsaState(stateCode=3, STATENAME=Arizona), UsaState(stateCode=4, STATENAME=Arkansas), UsaState(stateCode=5, STATENAME=California), UsaState(stateCode=6, STATENAME=Colorado), UsaState(stateCode=7, STATENAME=Connecticut), UsaState(stateCode=8, STATENAME=Delaware), UsaState(stateCode=9, STATENAME=District of Columbia), UsaState(stateCode=10, STATENAME=Florida), UsaState(stateCode=11, STATENAME=Georgia), UsaState(stateCode=12, STATENAME=Hawaii), UsaState(stateCode=13, STATENAME=Idaho), UsaState(stateCode=14, STATENAME=Illinois), UsaState(stateCode=15, STATENAME=Indiana), UsaState(stateCode=16, STATENAME=Iowa), UsaState(stateCode=17, STATENAME=Kansas), UsaState(stateCode=18, STATENAME=Kentucky), UsaState(stateCode=19, STATENAME=Louisiana), UsaState(stateCode=20, STATENAME=Maine), UsaState(stateCode=21, STATENAME=Maryland), UsaState(stateCode=22, STATENAME=Massachusetts), UsaState(stateCode=23, STATENAME=Michigan), UsaState(stateCode=24, STATENAME=Minnesota), UsaState(stateCode=25, STATENAME=Mississippi), UsaState(stateCode=26, STATENAME=Missouri), UsaState(stateCode=27, STATENAME=Montana), UsaState(stateCode=28, STATENAME=Nebraska), UsaState(stateCode=29, STATENAME=Nevada), UsaState(stateCode=30, STATENAME=New Hampshire), UsaState(stateCode=31, STATENAME=New Jersey), UsaState(stateCode=32, STATENAME=New Mexico), UsaState(stateCode=33, STATENAME=New York), UsaState(stateCode=34, STATENAME=North Carolina), UsaState(stateCode=35, STATENAME=North Dakota), UsaState(stateCode=36, STATENAME=Ohio), UsaState(stateCode=37, STATENAME=Oklahoma), UsaState(stateCode=38, STATENAME=Oregon), UsaState(stateCode=39, STATENAME=Pennsylvania), UsaState(stateCode=40, STATENAME=Puerto Rico), UsaState(stateCode=41, STATENAME=Rhode Island), UsaState(stateCode=42, STATENAME=South Carolina), UsaState(stateCode=43, STATENAME=South Dakota), UsaState(stateCode=44, STATENAME=Tennessee), UsaState(stateCode=45, STATENAME=Texas), UsaState(stateCode=46, STATENAME=Utah), UsaState(stateCode=47, STATENAME=Vermont), UsaState(stateCode=48, STATENAME=Virginia), UsaState(stateCode=49, STATENAME=Washington), UsaState(stateCode=50, STATENAME=West Virginia), UsaState(stateCode=51, STATENAME=Wisconsin), UsaState(stateCode=52, STATENAME=Wyoming)]
+%5{2019-05-05 00:05:53}  WARN 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Checking Condition !usastate.isEmpty())**
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:05:53}  INFO 12228 --- [http-nio-2323-exec-5] c.s.f.gov.ssncontroller.SsnController    : **formValue Method Execution Complited**
+%5{2019-05-05 00:06:01}  INFO 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **getAllssn() Execution Started**
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Execution Complited and got master From Database**
+%5{2019-05-05 00:06:01}  WARN 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **isEmpty()**
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01} DEBUG 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:01}  INFO 12228 --- [http-nio-2323-exec-7] c.s.fedral.gov.ssnservice.Ssnimpliment   : getAllssn() Execution Complited
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.f.gov.ssncontroller.SsnController    : **ShowForm Method Is  Executed**
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.f.gov.ssncontroller.SsnController    : *formValue Method Execution Started*
+%5{2019-05-05 00:06:09}  INFO 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : **rettriveAllstate() Execution Started**
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : **After Getting All usastate**[UsaState(stateCode=1, STATENAME=Alabama), UsaState(stateCode=2, STATENAME=Alaska), UsaState(stateCode=3, STATENAME=Arizona), UsaState(stateCode=4, STATENAME=Arkansas), UsaState(stateCode=5, STATENAME=California), UsaState(stateCode=6, STATENAME=Colorado), UsaState(stateCode=7, STATENAME=Connecticut), UsaState(stateCode=8, STATENAME=Delaware), UsaState(stateCode=9, STATENAME=District of Columbia), UsaState(stateCode=10, STATENAME=Florida), UsaState(stateCode=11, STATENAME=Georgia), UsaState(stateCode=12, STATENAME=Hawaii), UsaState(stateCode=13, STATENAME=Idaho), UsaState(stateCode=14, STATENAME=Illinois), UsaState(stateCode=15, STATENAME=Indiana), UsaState(stateCode=16, STATENAME=Iowa), UsaState(stateCode=17, STATENAME=Kansas), UsaState(stateCode=18, STATENAME=Kentucky), UsaState(stateCode=19, STATENAME=Louisiana), UsaState(stateCode=20, STATENAME=Maine), UsaState(stateCode=21, STATENAME=Maryland), UsaState(stateCode=22, STATENAME=Massachusetts), UsaState(stateCode=23, STATENAME=Michigan), UsaState(stateCode=24, STATENAME=Minnesota), UsaState(stateCode=25, STATENAME=Mississippi), UsaState(stateCode=26, STATENAME=Missouri), UsaState(stateCode=27, STATENAME=Montana), UsaState(stateCode=28, STATENAME=Nebraska), UsaState(stateCode=29, STATENAME=Nevada), UsaState(stateCode=30, STATENAME=New Hampshire), UsaState(stateCode=31, STATENAME=New Jersey), UsaState(stateCode=32, STATENAME=New Mexico), UsaState(stateCode=33, STATENAME=New York), UsaState(stateCode=34, STATENAME=North Carolina), UsaState(stateCode=35, STATENAME=North Dakota), UsaState(stateCode=36, STATENAME=Ohio), UsaState(stateCode=37, STATENAME=Oklahoma), UsaState(stateCode=38, STATENAME=Oregon), UsaState(stateCode=39, STATENAME=Pennsylvania), UsaState(stateCode=40, STATENAME=Puerto Rico), UsaState(stateCode=41, STATENAME=Rhode Island), UsaState(stateCode=42, STATENAME=South Carolina), UsaState(stateCode=43, STATENAME=South Dakota), UsaState(stateCode=44, STATENAME=Tennessee), UsaState(stateCode=45, STATENAME=Texas), UsaState(stateCode=46, STATENAME=Utah), UsaState(stateCode=47, STATENAME=Vermont), UsaState(stateCode=48, STATENAME=Virginia), UsaState(stateCode=49, STATENAME=Washington), UsaState(stateCode=50, STATENAME=West Virginia), UsaState(stateCode=51, STATENAME=Wisconsin), UsaState(stateCode=52, STATENAME=Wyoming)]
+%5{2019-05-05 00:06:09}  WARN 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Checking Condition !usastate.isEmpty())**
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.fedral.gov.ssnservice.Ssnimpliment   : UsaState usastateEntity : usastate 
+%5{2019-05-05 00:06:09}  INFO 12228 --- [http-nio-2323-exec-9] c.s.f.gov.ssncontroller.SsnController    : **formValue Method Execution Complited**
+%5{2019-05-05 00:06:09} DEBUG 12228 --- [http-nio-2323-exec-9] c.s.f.gov.ssncontroller.SsnController    : **Before Returning LogicalViewName**
+%5{2019-05-05 00:06:09}  INFO 12228 --- [http-nio-2323-exec-9] c.s.f.gov.ssncontroller.SsnController    : **Method Execution Complited**
+%5{2019-05-05 00:06:37}  INFO 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **getAllssn() Execution Started**
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Execution Complited and got master From Database**
+%5{2019-05-05 00:06:37}  WARN 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **isEmpty()**
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37} DEBUG 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : **Loop Execution is continuing **
+%5{2019-05-05 00:06:37}  INFO 12228 --- [http-nio-2323-exec-2] c.s.fedral.gov.ssnservice.Ssnimpliment   : getAllssn() Execution Complited
+%5{2019-05-05 00:06:49} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.f.g.s.SsnRestController              : **Inside VerifyStateName Method** 
+%5{2019-05-05 00:06:49}  INFO 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : findStateName Method  Exeution Started
+%5{2019-05-05 00:06:49}  WARN 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : **ssnmaster.isPresent()**
+%5{2019-05-05 00:06:49}  INFO 12228 --- [http-nio-2323-exec-5] c.s.fedral.gov.ssnservice.Ssnimpliment   : findStateName method Execution Complited
+%5{2019-05-05 00:06:49} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.f.g.s.SsnRestController              : **After Calling Service Class Method**
+%5{2019-05-05 00:06:49} DEBUG 12228 --- [http-nio-2323-exec-5] c.s.f.g.s.SsnRestController              : **After Getting State Name**
+%5{2019-05-05 00:07:19}  INFO 12228 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+%5{2019-05-05 00:07:19}  INFO 12228 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+%5{2019-05-05 00:07:19}  INFO 12228 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+%5{2019-05-05 00:07:19}  INFO 12228 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+%5{2019-05-05 00:07:19}  INFO 12228 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

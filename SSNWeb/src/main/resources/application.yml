@@ -1,0 +1,38 @@
+server:
+  port: 9090
+  
+   
+  #Application properties
+ssa:
+  ssaprops:
+    enrollsucess: congratulation Enrollment Sussesful
+    enrollFailed: Enrollmet Failed
+  
+ #Jpa and Hibernate Configuration
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate: null
+      show_sql: true
+      dialect: org.hibernate.dialect.OracleDialect
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: SYSTEM
+    password: MANAGER
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    #profile
+  profiles:
+    active:
+    - dev
+    #loging
+logging:
+  level:
+     org.springframework.web: ERROR
+     com.ssn.fedral.gov: DEBUG
+  file: E:\Project\SSNWave\App.log   
+  pattern:  
+    dateformat: "%d{yyyy-MM-dd HH:mm:ss}"
+    
+   

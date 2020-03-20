@@ -1,0 +1,15 @@
+#Add Prefix 
+spring:
+  mvc:
+    view:
+      prefix: /Views/
+      suffix: .jsp
+      #<annotation-name>.<cmdName>.<property>= Error message
+      NotEmpty:
+          ssnCmd:
+            firstName: userFirstName is required
+            lastName : userFirstName is required
+     
+     #Loging Conformation
+   
+       
