@@ -1,0 +1,17 @@
+Hi ${FNAME} ${LNAME},
+<br/>
+<br/>
+welcome to UHIP application.Your account is created by UHIP Admin.
+<br/>
+please use below details to access UHIP application.
+<br/>
+Application URL : ${URL} <br/>
+Email : ${Email} <br/>
+Password : ${PWD} <br/>
+ Your Role : ${ROLE} <br/>
+<br/>
+You have any concerns/issues please contact UHIP Adminstrator using 
+${PHNO}<br/>
+<br/>
+Thanks & Regards
+ UHIP Admin Team

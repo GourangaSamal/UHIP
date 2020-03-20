@@ -1,0 +1,68 @@
+ 
+server:
+  port: 9090
+  servlet:
+    context-path: /uhip
+    
+ #Application properties(contains key and value)
+ 
+uhip: 
+  uhipprops:
+    invalidCredentials: invalid credentials.
+    accountDeactivate: Your account is deactivated.
+    accCreationSucess: Account Created Successfully
+    accCreationFailure: Account Creation Failure
+    accCreationEmailSub: UHIP Account Created Successfully
+    uhipAdminPhno: +1 (855) (8447)
+ #Jpa and Hibernate Configuration with configurable spring.mail properties.
+#Database details
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: SYSTEM
+    password: MANAGER
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+#Hibernate Details
+  jpa:
+    properties:
+      hibernate:
+        dialect:  org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+ #mail Properties
+  mail:
+   host: smtp.gmail.com
+   port: 587
+   username: maharajainstitutes@gmail.com 
+   password: shiva7735@
+ #other Properties
+   properties:
+     mail: 
+      smtp: 
+       auth: true
+       connectiontimeout: 5000
+ #Enable TLS
+       starttls:
+        enable: true 
+         
+     
+   
+   #logging
+logging:
+  level:
+    root: error
+    org:
+      springframework:
+        web:  warn
+    com:
+      usa:
+        nj:
+          gov:
+            uhip: debug
+  file: F:\\uhip.log
+  pattern:
+    dateformat: "%d{yyyy-MM-dd HH:mm:ss}"
+    
+    
+    

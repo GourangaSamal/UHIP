@@ -1,0 +1,16 @@
+#Add Prefix 
+spring:
+  application:
+    name: UHIP
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+     
+#profile
+  profiles:
+    active:
+     - dev
+      
+
+    
